@@ -17,17 +17,17 @@ This outcome means that the feature we used to create the model are not enough t
 We considered the possibility that part of the limitation to our predictive accuracy based on features of the houses in our data was the overall appreciation of the market over the period of time that we studied. In order to capture this trend, we then built a sequential LSTM model and optimized by mean squared error. A sample of our results is included below.
 
 ### 1-Bedroom in San Antonio
-![1-Bedroom-in-San-Antonio-Close](.Images\4\Bedrooms\1\Plot.png)
-![1-Bedroom-in-San-Antonio-Zoomed-Out](.Images\4\Bedrooms\1\Plot2.png)
+![1-Bedroom-in-San-Antonio-Close](./Images/4/Bedrooms/1/Plot.png)
+![1-Bedroom-in-San-Antonio-Zoomed-Out](./Images/4/Bedrooms/1/Plot2.png)
 ### 2-Bedroom in Dallas
-![2-Bedroom-in-Dallas-Close](.Images\9\Bedrooms\2\Plot.png)
-![2-Bedroom-in-Dallas-Zoomed-Out](.Images\9\Bedrooms\2\Plot2.png)
+![2-Bedroom-in-Dallas-Close](./Images/9/Bedrooms/2/Plot.png)
+![2-Bedroom-in-Dallas-Zoomed-Out](./Images/9/Bedrooms/2/Plot2.png)
 ### 3-Bedroom in Houston
-![3-Bedroom-in-Houston-Close](.Images\9\Bedrooms\3\Plot.png)
-![3-Bedroom-in-Houston-Zoomed-Out](.Images\9\Bedrooms\3\Plot2.png)
+![3-Bedroom-in-Houston-Close](./Images/2/Bedrooms/3/Plot.png)
+![3-Bedroom-in-Houston-Zoomed-Out](./Images/2/Bedrooms/3/Plot2.png)
 ### 4-Bedroom in Austin
-![4-Bedroom-in-Austin-Close](.Images\10\Bedrooms\4\Plot.png)
-![4-Bedroom-in-Austin-Zoomed-Out](.Images\10\Bedrooms\4\Plot2.png)
+![4-Bedroom-in-Austin-Close](./Images/10/Bedrooms/4/Plot.png)
+![4-Bedroom-in-Austin-Zoomed-Out](./Images/10/Bedrooms/4/Plot2.png)
 
 In the regions for a given number of bedrooms in which appreciation over time took close to a linear relationship, 1-Bedroom in San Antonio and 3-Bedroom in Houston, for example, our model performed well, with our predicted prices capturing the overall trend of the real prices. In the case of a 3-Bedroom in Houston, our predictions appear to converge with the real prices toward the end of our testing period.
 
