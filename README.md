@@ -16,16 +16,16 @@ This outcome means that the feature we used to create the model are not enough t
 ## LSTM Model
 We considered the possibility that part of the limitation to our predictive accuracy based on features of the houses in our data was the overall appreciation of the market over the period of time that we studied. In order to capture this trend, we then built a sequential LSTM model and optimized by mean squared error. A sample of our results is included below.
 
-### 1-Bedroom in San Antonio
+### Predicted vs Real Prices (USD) Over Time for 1-Bedroom in San Antonio
 ![1-Bedroom-in-San-Antonio-Close](./Images/4/Bedrooms/1/Plot.png)
 ![1-Bedroom-in-San-Antonio-Zoomed-Out](./Images/4/Bedrooms/1/Plot2.png)
-### 2-Bedroom in Dallas
+### Predicted vs Real Prices (USD) Over Time for 2-Bedroom in Dallas
 ![2-Bedroom-in-Dallas-Close](./Images/9/Bedrooms/2/Plot.png)
 ![2-Bedroom-in-Dallas-Zoomed-Out](./Images/9/Bedrooms/2/Plot2.png)
-### 3-Bedroom in Houston
+### Predicted vs Real Prices (USD) Over Time for 3-Bedroom in Houston
 ![3-Bedroom-in-Houston-Close](./Images/2/Bedrooms/3/Plot.png)
 ![3-Bedroom-in-Houston-Zoomed-Out](./Images/2/Bedrooms/3/Plot2.png)
-### 4-Bedroom in Austin
+### Predicted vs Real Prices (USD) Over Time for 4-Bedroom in Austin
 ![4-Bedroom-in-Austin-Close](./Images/10/Bedrooms/4/Plot.png)
 ![4-Bedroom-in-Austin-Zoomed-Out](./Images/10/Bedrooms/4/Plot2.png)
 
@@ -33,8 +33,8 @@ In the regions for a given number of bedrooms in which appreciation over time to
 
 In predicting prices of a 2-Bedroom in Dallas, however, our model was not as accurate. We believe that this is due to the exponential growth in real prices realized toward the end of the training data, which does not continue through our testing period. As can be seen in the plots for this region and number of bedrooms, our predictions conform to this trend in the training data, causing our predictions to miss many of the prices in the testing data by a good margin. However, the fact that these incorrect predictions reflect the training data leads us to believe that eventually our model's predictions would converge with real prices in future data.
 
-Our models predicitions for a 4-Bedroom in Austin were accurate through most of the testing period. However, toward the end of 2018 and into the beginning of 2019, our model failed to predict the upward growth in appreciation in this market. We speculate that this is due to the large growth in the Austin job market, which was ranked No. 2 in the country by Business Insider in 2018 and likely pushed housing prices out of the trend that had been established in the training data. However, we believe that if the growth realized toward the end of our testing period were to continue, our model's predictions would converge with real prices.
-
+Our model's predicitions for a 4-Bedroom in Austin were accurate through most of the testing period. However, toward the end of 2018 and into the beginning of 2019, our model failed to predict the upward growth in appreciation in this market. We speculate that this is due to the large growth in the Austin job market, which was ranked third in the country by Business Insider in 2018[1] and likely pushed housing prices out of the trend that had been established in the training data. However, we believe that if the growth realized toward the end of our testing period were to continue, our model's predictions would converge with real prices.
+[1]https://www.businessinsider.com/us-economy-by-metro-area-ranked-san-francisco-seattle-austin-2018-4#3-austin-round-rock-tx-38
 ## 
 
 
