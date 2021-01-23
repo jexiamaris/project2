@@ -37,4 +37,8 @@ Our model's predicitions for a 4-Bedroom in Austin were accurate through most of
 [1]https://www.businessinsider.com/us-economy-by-metro-area-ranked-san-francisco-seattle-austin-2018-4#3-austin-round-rock-tx-38
 ## 
 
+## Housing units sold by bedroom size, Interest Rates, and days on market
+We tried to discover the if we could find the number of houses sold annually within Texas could be predicted if we had the price per bedroom, the average time on the market and the Freddie Mac 30 year fixed interest rate by month.  In order to capture this trend, we used Skearn and tensorflow. Below are our results.
 
+### Number of units sold results
+![1-Bedroom-in-San-Antonio-Close](./Images/12/Plot.png)
